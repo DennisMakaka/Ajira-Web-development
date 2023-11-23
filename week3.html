@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechHub</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('https://blog.hyperiondev.com/wp-content/uploads/2018/12/Blog-Tech-Hubs.jpg') center/cover no-repeat;
+            padding: 20px;
+            background-size: cover;
+            background-color: #001f3f;
+        }
+
+        header {
+            background: linear-gradient(to right, #001f3f, #003366);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 1px solid #fff;
+        }
+
+        header img {
+            width: 50px; 
+            height: auto; 
+            margin-right: 10px;
+            border-radius: 50%;            
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: 0.5s;
+            cursor: pointer;
+            margin-top: 10px;
+            margin-bottom: 10px;            
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background: #28a745;
+            padding: 10px;
+        }
+
+        nav a {
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background: #007BFF;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: inherit;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .cta-button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+
+        .login-form,
+        .signup-button-container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .login-form form,
+        #signup-popup form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .login-form label,
+        #signup-popup label {
+            margin-bottom: 5px;
+        }
+
+        .login-form input,
+        .login-form textarea,
+        #signup-popup input,
+        #signup-popup textarea {
+            margin-bottom: 10px;
+            padding: 8px;
+        }
+
+        .login-form button,
+        #signup-popup button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .login-form button:hover,
+        #signup-popup button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="https://tech-hub.tech/img/techhub-logo-01.png" alt="Left Image">
+        <h1>TechHub</h1>
+        <img src="https://tech-hub.tech/img/techhub-logo-01.png" alt="Right Image">
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Welcome to TechHub</h2>
+            <p>Embrace the future of technology at TechHub, your premier destination for all things innovative and cutting-edge. As you step into our digital realm, we invite you to explore a world where possibilities are limitless, and creativity knows no bounds.</p>
+            <p>Discover a curated collection of tech services tailored to meet your needs, stay informed with the latest insights from our TechHub Blog, and connect with us for any inquiries or collaborations. TechHub is more than a platform; it's a community of tech enthusiasts, industry experts, and forward-thinkers.</p>
+            <a href="#services" class="cta-button">Explore Services</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About TechHub</h2>
+        <p>TechHub is a community platform dedicated to connecting professionals and enthusiasts with a shared passion for technology. Explore our resources, participate in our discussions, and discover the latest in the world of tech.</p>
+    </section>
+
+    <section id="hero">
+        <h2>Learn. Connect. Elevate.</h2>
+        <p>Explore our community-driven resources and engage with tech enthusiasts worldwide. Stay updated with the latest news, events, and opportunities to level up your skills.</p>
+        <a href="#">Join Us Now</a>
+    </section>
+
+    <section id="features">
+        <h2>Why TechHub?</h2>
+        <ul>
+            <li>Learn from experts and share your knowledge with others</li>
+            <li>Stay informed with the latest news and trends</li>
+            <li>Engage with fellow tech enthusiasts through community events</li>
+            <li>Enhance your professional network</li>
+        </ul>
+    </section>
+
+    <section id="blog">
+        <h2>TechHub Blog</h2>
+        <p>Stay updated with the latest in the tech world through our insightful blog posts. Explore a wealth of information and stay ahead in the rapidly evolving tech landscape.</p>
+
+        <article>
+            <h3>Know more about Artificial Intelligence</h3>
+            <p>Not all tech is flashy! Explore the crucial role of mundane systems in maintaining stability and efficiency. From routine maintenance to everyday tasks, learn how these unsung heroes keep the digital world running smoothly.</p>
+            <a href="https://www.tutorialspoint.com/artificial_intelligence/artificial_intelligence_research_areas.htm">Read more</a>
+        </article>
+
+        <article>
+            <h3>Unraveling the Wonders of Machine Learning</h3>
+            <p>Dive into the fascinating world of machine learning and discover how algorithms and models are reshaping industries. Explore real-world applications, challenges, and the future potential of this transformative technology.</p>
+            <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank">Read more</a>
+        </article>
+    </section>
+
+    <section id="resources">
+        <h2>Resources</h2>
+        <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Web_development">Web Development</a></li>
+            <li><a href="https://flutter.dev/multi-platform/mobile?gclid=CjwKCAiAu9yqBhBmEiwAHTx5pxDvmP9weti3iTSd5c35gDIcmZjnEbRGlhxVLsZvtslgZsMA9_64qxoCdpwQAvD_BwE&gclsrc=aw.ds">Mobile App Development</a></li>
+            <li><a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/ui-ux">UI/UX Design</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Artificial_intelligence">Artificial Intelligence</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Blockchain">Blockchain</a></li>
+        </ul>
+    </section>
+
+    <div class="login-form">
+        <h5>Log in to your account</h5>
+        <form method="post" action="#">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <input type="submit" value="Log in">
+        </form>
+    </div>
+
+    <div class="signup-button-container">
+      <h4>Don't have an account? Let's get one!</h4>
+        <button onclick="openPopup()">Sign up now!</button>
+    </div>
+
+    <popup id="signup-popup">
+        <h2>Sign up for our newsletter</h2>
+        <form method="post" action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <input type="submit" value="Subscribe">
+        </form>
+    </popup>
+
+    <script>
+        function openPopup() {
+            document.getElementById("signup-popup").style.display = "block";
+        }
+    </script>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Need assistance or have any inquiries? Don't hesitate to reach out to us.</p>
+
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 TechHub. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
